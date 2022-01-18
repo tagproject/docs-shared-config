@@ -47,8 +47,8 @@
     "standard-shared-config": "^4.0.11"
   },
   "devDependencies": {
-    "@tagproject/base-shared-config": "^2.0.1",
-    "@tagproject/vscode-shared-config": "^1.2.0",
+    "@tagproject/base-shared-config": "^2.1.0",
+    "@tagproject/vscode-shared-config": "^1.2.1",
     "changelog-guru": "^4.0.2",
     "cspell": "^5.15.2",
     "figma-portal": "^0.10.2",
