@@ -1,0 +1,22 @@
+sharedDir: ".config"
+outputDir: "lib"
+
+mergeRules:
+  ".gitignore": true
+  ".npmignore": true
+
+ignorePatterns:
+  ".gitignore": [
+    ".env",
+  ]
+  ".npmignore": [
+    ".env",
+    "CODE_OF_CONDUCT.md",
+    "SECURITY.md",
+    "docs/",
+    "example/",
+    "media/",
+  ]
+
+scripts:
+  'prepare:docs': 'node --experimental-specifier-resolution=node node_modules/.bin/docs-shared-config'

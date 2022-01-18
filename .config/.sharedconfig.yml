@@ -1,0 +1,2 @@
+overrideScripts:
+  "prepare:docs": "exit 0"
