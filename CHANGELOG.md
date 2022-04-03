@@ -12,7 +12,7 @@
 <details>
 <summary>Dev Dependencies</summary>
 
-- Changed **[@tagproject/base-shared-config](https://www.npmjs.com/package/@tagproject/base-shared-config)** from `^2.2.0` to `^2.2.1`
+- Changed **[@tagproject/base-shared-config](https://www.npmjs.com/package/@tagproject/base-shared-config)** from `^2.2.0` to `^2.2.2`
 - Changed **[@tagproject/vscode-shared-config](https://www.npmjs.com/package/@tagproject/vscode-shared-config)** from `^1.2.3` to `^1.2.4`
 - Changed **[changelog-guru](https://www.npmjs.com/package/changelog-guru)** from `^4.0.3` to `^4.0.4`
 - Changed **[cspell](https://www.npmjs.com/package/cspell)** from `^5.19.2` to `^5.19.5`
@@ -23,7 +23,7 @@
 
 # :bug: Bug Fixes
 
-- Fix self configurating script [`fca1b24`](https://github.com/tagproject/docs-shared-config/commit/fca1b240586c547b8f07e12ac94f9a35cb812a63)
+- Fix self config script [`fca1b24`](https://github.com/tagproject/docs-shared-config/commit/fca1b240586c547b8f07e12ac94f9a35cb812a63)
 
 ---
 
