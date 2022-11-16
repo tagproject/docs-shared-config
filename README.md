@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/tagproject/docs-shared-config/media/banner.svg" alt="Package logo"></p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/tagproject/art/packages/docs-shared-config/banner.svg" alt="Package logo"></p>
 
 <p align="center">
     <a href="https://github.com/tagproject/docs-shared-config/actions"><img src="https://github.com/tagproject/docs-shared-config/actions/workflows/build.yml/badge.svg" alt="Build Status"></a>
@@ -22,3 +22,27 @@ npm install @tagproject/docs-shared-config --save-dev
 - Run `npm run prepare`
 
 > use `node --experimental-specifier-resolution=node node_modules/.bin/docs-shared-config` while [ESM](https://nodejs.org/api/esm.html) is in `Experimental`
+
+## Configs
+
+### extract docs:
+
+- `CODE_OF_CONDUCT.md`
+- `LICENSE`
+- `SECURITY.md`
+
+### merge files:
+
+- `.gitignore`
+- `.npmignore`
+
+### append to `package.json`:
+
+#### scripts:
+
+- `prepare` - run all `prepare:*`
+- `prepare:docs` - extract shared docs
+
+### check and install dependencies:
+
+- [npm-run-all](https://www.npmjs.com/package/npm-run-all): `latest`

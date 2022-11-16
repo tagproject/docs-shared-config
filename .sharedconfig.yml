@@ -8,6 +8,7 @@ mergeRules:
 ignorePatterns:
   ".gitignore": [
     ".env",
+    "node_modules/"
   ]
   ".npmignore": [
     ".env",
@@ -16,7 +17,12 @@ ignorePatterns:
     "docs/",
     "example/",
     "media/",
+    "node_modules/"
   ]
 
 scripts:
-  'prepare:docs': 'node --experimental-specifier-resolution=node node_modules/.bin/docs-shared-config'
+  "prepare:docs": "node --experimental-specifier-resolution=node node_modules/.bin/docs-shared-config"
+  "prepare": "npm-run-all prepare:*"
+
+dependencies:
+  - "npm-run-all"
