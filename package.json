@@ -1,6 +1,6 @@
 {
   "name": "@tagproject/docs-shared-config",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Standard shared config for tagproject packages with Node.js and TypeScript",
   "license": "MIT",
   "homepage": "https://github.com/tagproject/docs-shared-config#readme",
