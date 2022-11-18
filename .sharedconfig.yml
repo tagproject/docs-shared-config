@@ -21,7 +21,7 @@ ignorePatterns:
   ]
 
 scripts:
-  "prepare:docs": "node --experimental-specifier-resolution=node node_modules/.bin/docs-shared-config"
+  "prepare:docs": "docs-shared-config"
   "prepare": "npm-run-all prepare:*"
 
 dependencies:
