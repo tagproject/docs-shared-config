@@ -3,26 +3,16 @@
 ## Dependencies
 
 <details>
-<summary>Dependencies</summary>
-
-- Changed **[standard-shared-config](https://www.npmjs.com/package/standard-shared-config)** from `^4.0.15` to `^4.0.17`
-
-</details>
-
-<details>
 <summary>Dev Dependencies</summary>
 
-- Changed **[@tagproject/vscode-shared-config](https://www.npmjs.com/package/@tagproject/vscode-shared-config)** from `^2.0.2` to `^2.0.3`
-- Changed **[cspell](https://www.npmjs.com/package/cspell)** from `^6.14.2` to `^6.14.3`
+- Changed **[@tagproject/base-shared-config](https://www.npmjs.com/package/@tagproject/base-shared-config)** from `^3.3.2` to `^3.3.4`
+- Changed **[@tagproject/vscode-shared-config](https://www.npmjs.com/package/@tagproject/vscode-shared-config)** from `^2.0.3` to `^2.0.4`
+- Changed **[changelog-guru](https://www.npmjs.com/package/changelog-guru)** from `^4.0.6` to `^4.0.8`
 
 </details>
-
-# :bug: Bug Fixes
-
-- Remove `--experimental-specifier-resolution`=node [`97cf38c`](https://github.com/tagproject/docs-shared-config/commit/97cf38cbb1b6f7db823589a4275fea7173b16dbb)
 
 ---
 
 # Contributors
 
-[![@keindev](https://avatars.githubusercontent.com/u/4527292?v=4&s=40)](https://github.com/keindev)
+[![@keindev](https://avatars.githubusercontent.com/u/4527292?v=4&s=40)](https://github.com/keindev) [![@github-actions[bot]](https://avatars.githubusercontent.com/in/15368?v=4&s=40)](https://github.com/github-actions%5Bbot%5D)
