@@ -41,6 +41,6 @@ npm install @tagproject/docs-shared-config --save-dev
 - `prepare` - run all `prepare:*`
 - `prepare:docs` - extract shared docs
 
-### check and install dependencies:
+### dependencies:
 
 - [npm-run-all](https://www.npmjs.com/package/npm-run-all): `latest`
