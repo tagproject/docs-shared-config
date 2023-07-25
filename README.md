@@ -18,7 +18,7 @@ npm install @tagproject/docs-shared-config --save-dev
 
 - Add `"prepare:docs": "docs-shared-config"` to `scripts` property in your `package.json`
 - Rename your `prepare` scripts to `prepare:[NAME]`
-- Add `"prepare": "npm-run-all prepare:*"`
+- Add `"prepare": "run-s prepare:*"`
 - Run `npm run prepare`
 
 ## Configs

@@ -22,7 +22,4 @@ ignorePatterns:
 
 scripts:
   "prepare:docs": "docs-shared-config"
-  "prepare": "npm-run-all prepare:*"
-
-dependencies:
-  - "npm-run-all"
+  "prepare": "run-s prepare:*"
