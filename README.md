@@ -43,4 +43,4 @@ npm install @tagproject/docs-shared-config --save-dev
 
 ### dependencies:
 
-- [npm-run-all](https://www.npmjs.com/package/npm-run-all): `latest`
+- [npm-run-all](https://www.npmjs.com/package/npm-run-all): `4.x`
