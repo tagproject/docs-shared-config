@@ -1,4 +1,3 @@
-.env
 /.editorconfig
 /.husky/
 /.prettierignore
@@ -6,4 +5,14 @@
 /.vscode/
 bin
 lib
+
+# !ignorefile-merge block-open @tagproject/docs-shared-config
+# ---------------------------------------------------------------
+# This block generated automatically
+# @see https://www.npmjs.com/package/ignorefile-merge
+# ---------------------------------------------------------------
+
+.env
 node_modules/
+
+# !ignorefile-merge block-close @tagproject/docs-shared-config

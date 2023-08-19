@@ -1,7 +1,5 @@
 .config
 .editorconfig
-.env
-.figma.yml
 .gitattributes
 .github
 .husky
@@ -9,10 +7,20 @@
 .prettierrc
 .sharedconfig.yml
 .vscode
+codecov.yml
+
+# !ignorefile-merge block-open @tagproject/docs-shared-config
+# ---------------------------------------------------------------
+# This block generated automatically
+# @see https://www.npmjs.com/package/ignorefile-merge
+# ---------------------------------------------------------------
+
+.env
 CODE_OF_CONDUCT.md
 SECURITY.md
-codecov.yml
 docs/
 example/
 media/
 node_modules/
+
+# !ignorefile-merge block-close @tagproject/docs-shared-config
