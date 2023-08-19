@@ -4,10 +4,7 @@
   "description": "Standard shared config for tagproject packages with Node.js and TypeScript",
   "license": "MIT",
   "homepage": "https://github.com/tagproject/docs-shared-config#readme",
-  "author": {
-    "name": "Daniil Ryazanov",
-    "email": "kein@tagproject.ru"
-  },
+  "author": "Daniil Ryazanov <kein@tagproject.ru>",
   "keywords": [
     "config",
     "docs",
@@ -46,8 +43,8 @@
     "standard-shared-config": "5.1.0"
   },
   "devDependencies": {
-    "@tagproject/base-shared-config": "^4.0.1",
-    "@tagproject/vscode-shared-config": "^3.0.0"
+    "@tagproject/base-shared-config": "^4.0.2",
+    "@tagproject/vscode-shared-config": "^4.0.0"
   },
   "peerDependencies": {
     "npm-run-all": "4.x"
